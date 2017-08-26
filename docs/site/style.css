@@ -6651,4 +6651,7 @@ body {
     border: 1px solid #525458 !important;
 }
 
+.td-n { text-decoration: none; }
+.hover-td-n:hover { text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
