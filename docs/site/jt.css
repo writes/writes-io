@@ -1,0 +1,96 @@
+/* Jt theme specific css */
+.head-bg {
+  left: -195px;
+}
+
+.header-has-img.home .head-bg {
+}
+
+.profile-list .cont a {
+  color: #1a77d4;
+}
+
+.btn-scroll-top,
+.btn-scroll-top:hover,
+.btn-scroll-top:active,
+.btn-scroll-top:visited {
+  background-color: #616671;
+}
+
+.btn-scroll-top .rsicon {
+  background-color: #616671;
+  color: #fff;
+}
+
+.contact-info .contact-list span {
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.contact-info .contact-list strong {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.contact-info .contact-list a {
+  color: #1a77d4;
+}
+
+.contact-info .contact-list a:hover {
+  text-decoration: underline;
+}
+
+.profile-list .cont {
+  line-height: 35px;
+  margin-left: 0;
+}
+
+.profile-list .title {
+  font-size: 15px;
+}
+
+.contact-info.has-map {
+  min-height: 0;
+  padding-bottom: 40px;
+}
+
+.footer-social .social li a .rsicon {
+  color: #616671;
+}
+
+#education .timeline-box h4 {
+  margin-bottom: 10px;
+}
+
+.timeline-box h4.focused-education {
+  font-size: 12px;
+}
+
+/* fancybox overrides */
+.fancybox-nav.fancybox-next,
+.fancybox-nav.fancybox-prev {
+  display: none;
+}
+
+.social li {
+  margin: 5px 20px;
+}
+
+.social li a .rsicon {
+  font-size: 27px;
+}
+
+.section-about .profile-info {
+  margin-bottom: 35px;
+  margin-top: 25px;
+  padding-bottom: 15px;
+}
+
+.section-about .profile-position {
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.section-about .section-txt-btn p:last-child {
+  margin-top: 60px;
+}
