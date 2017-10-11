@@ -1,8 +1,6 @@
 # writes-io
 
-## Dev
-
-[https://writes.github.io/writes-io/site/index.html](https://writes.github.io/writes-io/site/index.html)
+[writes.io](writes.io)
 
 ## About me
 
