@@ -1,6 +1,6 @@
 # writes-io
 
-[writes.io](writes.io)
+[http://writes.io](writes.io)
 
 ## About me
 
