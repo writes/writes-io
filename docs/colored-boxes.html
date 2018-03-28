@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-color-1a77d4 theme-skin-light">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jonathon Thompson's Colored Boxes</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<style>
+/* Page */
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+/* Colors */
+.blue { background-color: blue; }
+.green { background-color: green; }
+.red { background-color: red; }
+#white { background-color: white; }
+
+/* Box */
+.box {
+  float: left;
+  width: 100%;
+  max-width: 230px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+span {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+button {
+  border: 1px solid black;
+  display: block;
+  height: 75px;
+  margin: 0 auto;
+  position: relative;
+  top: 30%;
+  width: 75px;
+}
+
+@media (max-width: 500px) {
+  .box {
+    float: none;
+    margin: 5px auto;
+  }
+}
+</style>
+
+<div class="container">
+  <div class="box" data-color="white">
+    <span id="white">
+      <button>White</button>
+    </span>
+  </div>
+  <div class="box" data-color="red">
+    <span class="red">
+      <button>Red</button>
+    </span>
+  </div>
+  <div class="box" data-color="green">
+    <span class="green">
+      <button>Green</button>
+    </span>
+  </div>
+  <div class="box" data-color="blue">
+    <span class="blue">
+      <button>Blue</button>
+    </span>
+  </div>
+</div>
+<script type="text/javascript">
+// Change boxes to red
+$('.box[data-color="red"]').click(function() {
+  $('span')
+    .removeClass()
+    .addClass('red');
+});
+
+// Change boxes to blue
+$('.box[data-color="blue"]').click(function() {
+  $('span')
+    .removeClass()
+    .addClass('blue');
+});
+
+// Change boxes to green
+$('.box[data-color="green"]').click(function() {
+  $('span')
+    .removeClass()
+    .addClass('green');
+});
+
+// Reset boxes
+$('.box[data-color="white"]').click(function() {
+  $('.box[data-color="green"] span')
+    .removeClass()
+    .addClass('green');
+  $('.box[data-color="red"] span')
+    .removeClass()
+    .addClass('red');
+  $('.box[data-color="blue"] span')
+    .removeClass()
+    .addClass('blue');
+});
+</script>
+</body>
+</html>
